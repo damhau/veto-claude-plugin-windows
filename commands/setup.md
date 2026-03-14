@@ -19,7 +19,8 @@ Wait for the user to reply with their key or "skip".
 
 Step 3 - After collecting all answers:
 
-1. Create the config directory ~\.veto if it does not exist
+1. Create the config directory if it doesn't exist:
+   Run: `mkdir -p ~/.veto`
 
 2. Edit if it already exist or Write the config file using the Write tool to ~\.veto\config.json
    Content: {"api_key": "...", "fail_policy": "...", "timeout": 25}
