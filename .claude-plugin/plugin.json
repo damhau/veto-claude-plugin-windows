@@ -1,6 +1,6 @@
 {
   "name": "veto-windows",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "Veto permission gateway for Claude Code (Windows)",
   "author": {
     "name": "Veto",
