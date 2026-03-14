@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "powershell -File \"${CLAUDE_PLUGIN_ROOT}\\scripts\\evaluate.ps1\"",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/evaluate.sh",
             "timeout": 30
           }
         ]
