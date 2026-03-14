@@ -22,7 +22,7 @@ Step 3 - After collecting all answers:
 1. Create the config directory if it doesn't exist:
    Run: `New-Item -ItemType Directory -Force -Path "$HOME\.veto"`
 
-2. Check if the file `$HOME\.veto\config.json` exist, if it does not exist create it and if the already exist update it with the "Write" tool is should contain the content below:
+2. Edit if it already exist or Write the config file using the Write tool to `$HOME\.veto\config.json`
    Content: {"api_key": "...", "fail_policy": "...", "timeout": 25}
    Use the fail_policy value from the user's answer in Step 1 ("open" or "closed").
    If the user skipped the API key, set "api_key": ""
