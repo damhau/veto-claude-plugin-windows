@@ -1,0 +1,17 @@
+{
+  "description": "Veto permission gateway hooks",
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "matcher": "^(?!ExitPlanMode$|AskUserQuestion$).*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell $env:CLAUDE_PLUGIN_ROOT\\scripts\\evaluate.ps1",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
